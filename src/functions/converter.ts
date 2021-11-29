@@ -10,4 +10,8 @@ export function csvToJson(req: Request, res: Response) {
     res.send(json);
 }
 
+export function welcome(req: Request, res: Response) {
+
+    res.send("Welcome to CSV to JSON API");
+}
 
