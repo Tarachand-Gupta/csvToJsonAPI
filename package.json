@@ -9,6 +9,7 @@
   },
 
   "scripts": {
+    "preinstall":"npm install -g ts-node",
     "dev": "nodemon --config nodemon.json src/app.ts",
     "start": "node src/app.ts"
   },
