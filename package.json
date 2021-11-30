@@ -10,6 +10,8 @@
   "scripts": {
     "preinstall":"npm install -g ts-node typescript @types/node",
     "start": "node src/app.ts",
+    "build": "tsc",
+    "postinstall": "npm run build",
     "dev": "nodemon --config nodemon.json src/app.ts"
   },
   "dependencies": {
